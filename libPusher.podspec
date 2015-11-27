@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
 
   s.subspec 'Core' do |subspec|
-    subspec.dependency 'SocketRocket', git => 'https://github.com/3viewgroup/SocketRocket.git'
+    subspec.dependency 'SocketRocket'
 
 
     subspec.source_files         = 'Library/**/*.{h,m}'
