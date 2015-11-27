@@ -11,20 +11,29 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
-  - SocketRocket (0.4.1)
+  - SocketRocket (0.4.2)
 
 DEPENDENCIES:
   - Kiwi (~> 2.3)
   - OHHTTPStubs (~> 3.0)
   - Reachability (~> 3.1)
   - ReactiveCocoa (~> 2.1)
-  - SocketRocket (~> 0.4.1)
+  - SocketRocket (from `https://github.com/3viewgroup/SocketRocket.git`)
+
+EXTERNAL SOURCES:
+  SocketRocket:
+    :git: https://github.com/3viewgroup/SocketRocket.git
+
+CHECKOUT OPTIONS:
+  SocketRocket:
+    :commit: 3a5c274bcbca69f3c3e43c0e0d11020fc1308100
+    :git: https://github.com/3viewgroup/SocketRocket.git
 
 SPEC CHECKSUMS:
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
   OHHTTPStubs: 8cf0cfe6f34f13fc88fdf5b2a1b2c2536e8c0261
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
-  SocketRocket: ee0b5c34182d37bb4f1f8d628bbe737718126daa
+  SocketRocket: 646e45b84fee0c6ca981ade01b24a59078e4d942
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0
